@@ -21,7 +21,7 @@ for __ in range(T):
             data_dict[i]=[0,1]
 
 
-threshold=max_dislike*(0.4)
+threshold=max_dislike*(0.5)
 length=0
 output=' '
 for i in data_dict:
