@@ -1,8 +1,8 @@
 in_files=["a_an_example.in.txt","b_basic.in.txt","c_coarse.in.txt","d_difficult.in.txt","e_elaborate.in.txt"]
 out_files=["a_an_example","b_basic","c_coarse","d_difficult","e_elaborate"]
 for k in range(5):
-    in_file_str=r"D:\vscode_projects\python\hashcode_2022\practice\input"+"\\"+in_files[k]
-    out_file_str=r"D:\vscode_projects\python\hashcode_2022\practice\output_test_hanshika"+"\\"+out_files[k]+".txt"
+    in_file_str=r"<path/of/your/folder/having/input/files>"+"\\"+in_files[k]
+    out_file_str=r"<path/of/your/folder/having/output/files>"+"\\"+out_files[k]+".txt"
 
 
     inp_file_path=in_file_str
