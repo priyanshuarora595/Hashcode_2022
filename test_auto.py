@@ -3,9 +3,9 @@ out_files=["a_an_example","b_basic","c_coarse","d_difficult","e_elaborate"]
 
 threshold_val=int(input("enter threshold value = "))
 for k in range(5):
+    in_file_str=r"<path/of/your/folder/having/input/files>"+"\\"+in_files[k]
+    out_file_str=r"<path/of/your/folder/having/output/files>"+"\\"+out_files[k]+".txt"
     
-    in_file_str=r"D:\vscode_projects\python\hashcode_2022\practice\input"+"\\"+in_files[k]
-    out_file_str=r"D:\vscode_projects\python\hashcode_2022\practice\output_test_hanshika"+"\\"+out_files[k]+".txt"
     
     in_file = open(in_file_str,'r')
     out_file = open(out_file_str,'w')
